@@ -9,8 +9,8 @@ from database import init_db, save_message, get_users
 
 # .env yuklash
 load_dotenv()
-TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "").split(",") if x]
+TOKEN = os.getenv("8100477393:AAG8q13ElsSGlgBaLFLUEbXRsiHu8T1W96k")
+ADMIN_IDS = [int(x) for x in os.getenv("6791111414").split(",") if x]
 
 # DB init
 init_db()
@@ -237,3 +237,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
